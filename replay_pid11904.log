@@ -1,0 +1,269 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 172 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 3933896 0 0
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 1417 1 65438 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 3089 13649 2281 0 -1
+ciMethod java/lang/String hashCode ()I 2761 32769 999 0 288
+ciMethod java/util/Map get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/AbstractList <init> ()V 2073 1 214675 0 32
+ciMethod java/util/AbstractCollection <init> ()V 873 1 493918 0 32
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 2089 1 153957 0 160
+ciMethod java/util/HashMap comparableClassFor (Ljava/lang/Object;)Ljava/lang/Class; 977 1 122 0 -1
+ciMethod java/util/HashMap compareComparables (Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/Object;)I 0 0 1 0 -1
+ciMethod java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2049 1 60315 0 672
+ciMethod java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 2769 41 19304 0 480
+ciMethod java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2097 1 47308 0 1248
+ciMethod java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 2081 97 22801 0 1184
+ciMethod java/util/HashMap resize ()[Ljava/util/HashMap$Node; 345 633 4560 0 -1
+ciMethod java/util/HashMap treeifyBin ([Ljava/util/HashMap$Node;I)V 1 1 8 0 0
+ciMethod java/util/HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node; 2049 1 6433 0 224
+ciMethod java/util/HashMap newTreeNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethod java/util/HashMap replacementTreeNode (Ljava/util/HashMap$Node;Ljava/util/HashMap$Node;)Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethod java/util/HashMap afterNodeAccess (Ljava/util/HashMap$Node;)V 2057 1 1281 0 0
+ciMethod java/util/HashMap afterNodeInsertion (Z)V 2049 1 1348 0 0
+ciMethod java/util/HashMap$Node <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V 2201 1 13529 0 0
+ciMethodData java/lang/Object <init> ()V 2 3933896 orig 264 104 225 212 103 0 0 0 0 128 4 1 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 65 38 224 1 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/HashMap$TreeNode root ()Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethod java/util/HashMap$TreeNode moveRootToFront ([Ljava/util/HashMap$Node;Ljava/util/HashMap$TreeNode;)V 81 1 10 0 -1
+ciMethod java/util/HashMap$TreeNode find (ILjava/lang/Object;Ljava/lang/Class;)Ljava/util/HashMap$TreeNode; 73 89 9 0 -1
+ciMethod java/util/HashMap$TreeNode getTreeNode (ILjava/lang/Object;)Ljava/util/HashMap$TreeNode; 9 1 1 0 -1
+ciMethod java/util/HashMap$TreeNode tieBreakOrder (Ljava/lang/Object;Ljava/lang/Object;)I 945 1 118 0 -1
+ciMethod java/util/HashMap$TreeNode treeify ([Ljava/util/HashMap$Node;)V 49 993 6 0 -1
+ciMethod java/util/HashMap$TreeNode putTreeVal (Ljava/util/HashMap;[Ljava/util/HashMap$Node;ILjava/lang/Object;Ljava/lang/Object;)Ljava/util/HashMap$TreeNode; 17 41 3 0 0
+ciMethod java/util/HashMap$TreeNode split (Ljava/util/HashMap;[Ljava/util/HashMap$Node;II)V 17 153 4 0 -1
+ciMethod java/util/HashMap$TreeNode balanceInsertion (Ljava/util/HashMap$TreeNode;Ljava/util/HashMap$TreeNode;)Ljava/util/HashMap$TreeNode; 417 281 52 0 -1
+ciMethodData java/lang/String hashCode ()I 2 21652 orig 264 104 225 212 103 0 0 0 0 184 79 1 21 0 0 0 0 152 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 113 20 0 0 161 36 2 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 11 0 2 0 0 0 120 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 15 0x60007 0xe3 0x78 0x1ab 0xe0007 0x3 0x58 0x1a8 0x1e0007 0x1a8 0x38 0x446e 0x2d0003 0x446e 0xffffffffffffffe0 oops 0
+ciMethodData java/util/HashMap hash (Ljava/lang/Object;)I 2 153959 orig 264 104 225 212 103 0 0 0 0 56 97 15 21 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 1 0 0 17 195 18 0 1 0 0 0 128 103 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 104 0 0 0 255 255 255 255 7 224 1 0 0 0 0 0 data 13 0x1e007 0x25839 0x38 0x2b 0x50003 0x2b 0x48 0x90005 0xd8ac 0x2df20f0 0x2cd 0x2df1a30 0x17ab6 oops 2 9 java/security/ProtectionDomain 11 java/lang/String
+ciMethodData java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2 60317 orig 264 104 225 212 103 0 0 0 0 184 105 15 21 0 0 0 0 200 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 233 84 7 0 1 0 0 0 172 51 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 120 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 15 0x20002 0xea9d 0x60005 0x4fa 0x2255abe0 0xe59e 0x2255e5d0 0x6 0xb0007 0xa971 0x38 0x412e 0xf0003 0x412e 0x18 oops 2 4 java/util/HashMap 6 sun/nio/ch/WindowsSelectorImpl$FdMap
+ciMethodData java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 2 19304 orig 264 104 225 212 103 0 0 0 0 232 106 15 21 0 0 0 0 8 4 0 0 160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 90 1 0 0 113 80 2 0 1 25 0 0 103 43 0 0 205 1 0 0 2 0 0 0 1 0 37 0 2 0 0 0 176 2 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 86 0x60007 0xa07 0x2b0 0x4007 0xe0007 0x0 0x290 0x4007 0x1c0007 0x16ca 0x270 0x293d 0x250007 0xe8a 0xb0 0x1ab3 0x310007 0x977 0x90 0x113c 0x35e007 0x2 0x70 0x113b 0x3b0005 0xa16 0x16db6850 0x4fe 0x193b5da0 0x227 0x3e0007 0x83 0x20 0x10b8 0x4c0007 0x854 0x1a0 0x6bb 0x510004 0xfffffffffffff945 0x2255dc40 0x1a 0x0 0x0 0x540007 0x6bb 0x80 0x0 0x590004 0x0 0x0 0x0 0x0 0x0 0x5e0005 0x0 0x0 0x0 0x0 0x0 0x680007 0x325 0xb0 0x4d7 0x740007 0x181 0x90 0x356 0x780007 0x0 0x70 0x356 0x7e0005 0x159 0x2df1a30 0x175 0x193b5da0 0x88 0x81e007 0x2 0x20 0x356 0x8f0007 0x141 0xffffffffffffff50 0x1e6 oops 5 26 java/security/CodeSource 28 java/util/jar/Attributes$Name 40 java/util/HashMap$Node 74 java/lang/String 76 java/util/jar/Attributes$Name
+ciMethodData java/util/AbstractCollection <init> ()V 2 493918 orig 264 104 225 212 103 0 0 0 0 184 95 13 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 109 0 0 0 137 71 60 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x788f6 oops 0
+ciMethodData java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 2 22801 orig 264 104 225 212 103 0 0 0 0 8 110 15 21 0 0 0 0 176 6 0 0 232 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 5 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 105 192 2 0 25 56 0 0 22 52 0 0 84 3 0 0 2 0 0 0 1 0 50 0 2 0 0 0 64 5 0 0 255 255 255 255 7 0 7 0 0 0 0 0 data 168 0x70007 0xdb7 0x40 0x4a56 0x100007 0x4a56 0x50 0x0 0x140005 0x40 0x2058a570 0x992 0x2255abe0 0x3e5 0x2c0007 0x1e34 0x98 0x39d9 0x380005 0x1b 0x2058a570 0x2466 0x2255abe0 0x1558 0x3b0004 0x0 0x213cc6d0 0x247c 0x2255dc40 0x155d 0x3c0003 0x39d9 0x3d0 0x450007 0x17b5 0xc8 0x67f 0x510007 0x3a5 0x90 0x2da 0x55e007 0x2 0x88 0x2d9 0x5b0005 0x249 0x16db6460 0x41 0x2df1a30 0x4f 0x5e0007 0x114 0x38 0x1c5 0x650003 0x56a 0x278 0x6a0004 0xffffffffffffe738 0x2255dc40 0x72 0x213cc6d0 0x4b 0x6d0007 0x18c8 0x98 0x3 0x720004 0x0 0x193b4150 0x3 0x0 0x0 0x7b0005 0x2 0x193b4150 0x1 0x0 0x0 0x800003 0x3 0x1b0 0x8e0007 0x7ce 0xb8 0x17fd 0x980005 0x21 0x2058a570 0x103c 0x2255abe0 0x7a0 0xa2e007 0x17f8 0x148 0x8 0xa90005 0x6 0x2058a570 0x2 0x0 0x0 0xac0003 0x8 0xf8 0xb50007 0x5ff 0xc8 0x1cf 0xc10007 0x85 0xc0 0x14a 0xc50007 0x0 0x88 0x14a 0xcbc005 0x143 0x16db6460 0x7 0x213cc780 0x4 0xce0007 0x104 0x38 0x4a 0xd10003 0x4a 0x30 0xdb0003 0x703 0xfffffffffffffe80 0xe00007 0x1803 0x90 0x639 0xec0007 0x618 0x40 0x21 0xf10007 0x21 0x20 0x0 0xfdf005 0x5c 0x2058a570 0xe9 0x2255abe0 0x4f9 0x11c0007 0x4f69 0x50 0x273 0x1200005 0x10 0x2058a570 0x1b1 0x2255abe0 0xb2 0x1270005 0x3c 0x2058a570 0x34a8 0x2255abe0 0x1cf8 oops 23 10 java/util/LinkedHashMap 12 java/util/HashMap 20 java/util/LinkedHashMap 22 java/util/HashMap 26 java/util/LinkedHashMap$Entry 28 java/util/HashMap$Node 47 java/io/File 49 java/lang/String 60 java/util/HashMap$Node 62 java/util/LinkedHashMap$Entry 70 java/util/HashMap$TreeNode 76 java/util/HashMap$TreeNode 89 java/util/LinkedHashMap 91 java/util/HashMap 99 java/util/LinkedHashMap 120 java/io/File 122 sun/misc/ProxyGenerator$ConstantPool$IndirectEntry 148 java/util/LinkedHashMap 150 java/util/HashMap 158 java/util/LinkedHashMap 160 java/util/HashMap 164 java/util/LinkedHashMap 166 java/util/HashMap
+ciMethodData java/util/HashMap resize ()[Ljava/util/HashMap$Node; 2 32621 orig 264 104 225 212 103 0 0 0 0 56 112 15 21 0 0 0 0 56 6 0 0 216 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 79 0 0 0 41 141 0 0 241 248 3 0 106 4 0 0 200 64 0 0 2 0 0 0 2 0 56 0 2 0 0 0 240 4 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 158 0x60007 0x26f 0x38 0xf36 0xa0003 0xf36 0x18 0x190007 0xf36 0x98 0x26f 0x1f0007 0x26f 0x20 0x0 0x320007 0x0 0x90 0x26f 0x380007 0x12 0x70 0x25d 0x400003 0x25d 0x50 0x440007 0x977 0x38 0x5bf 0x4a0003 0x5bf 0x18 0x570007 0xbd4 0x78 0x5d1 0x680007 0x0 0x58 0x5d1 0x700007 0x0 0x38 0x5d1 0x760003 0x5d1 0x18 0x880004 0x0 0x193b32c0 0xda 0x0 0x0 0x940007 0xf36 0x340 0x26f 0x9d0007 0x270 0x320 0x59c6 0xa70007 0x297b 0x2e8 0x304b 0xae0104 0x0 0x0 0x0 0x0 0x0 0xb40007 0x10b3 0x68 0x1f98 0xc50004 0x0 0x213cc6d0 0x132b 0x2255dc40 0xc6d 0xc60003 0x1f98 0x248 0xcb0004 0xffffffffffffef50 0x213cc6d0 0x88 0x2255dc40 0x2e 0xcee007 0x10b0 0x98 0x4 0xd30004 0x0 0x193b4150 0x4 0x0 0x0 0xdc0005 0x2 0x193b4150 0x2 0x0 0x0 0xdf0003 0x4 0x180 0xfc0007 0x121f 0x70 0x13ee 0x1010007 0x678 0x38 0xd76 0x1080003 0xd76 0x18 0x1160003 0x13ee 0x50 0x11b0007 0x5ba 0x38 0xc65 0x1220003 0xc65 0x18 0x1350007 0x155d 0xffffffffffffff58 0x10b0 0x13a0007 0x33a 0x50 0xd76 0x1490004 0x0 0x213cc6d0 0x820 0x2255dc40 0x556 0x14c0007 0x44b 0x50 0xc65 0x15d0004 0x0 0x213cc6d0 0x7e2 0x2255dc40 0x483 0x1610003 0x59c7 0xfffffffffffffcf8 oops 11 50 [Ljava/util/HashMap$Node; 78 java/util/LinkedHashMap$Entry 80 java/util/HashMap$Node 87 java/util/LinkedHashMap$Entry 89 java/util/HashMap$Node 97 java/util/HashMap$TreeNode 103 java/util/HashMap$TreeNode 141 java/util/LinkedHashMap$Entry 143 java/util/HashMap$Node 151 java/util/LinkedHashMap$Entry 153 java/util/HashMap$Node
+ciMethodData java/util/HashMap treeifyBin ([Ljava/util/HashMap$Node;I)V 1 41 orig 264 104 225 212 103 0 0 0 0 72 113 15 21 0 0 0 0 8 3 0 0 136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 65 0 0 0 73 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 176 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 54 0x10007 0x0 0x40 0x8 0xa0007 0x5 0x68 0x3 0xe0005 0x3 0x0 0x0 0x0 0x0 0x120003 0x3 0x140 0x220007 0x0 0x128 0x5 0x2f0005 0x0 0x2058a570 0x2f 0x0 0x0 0x360007 0x2a 0x38 0x5 0x3d0003 0x5 0x18 0x5a0007 0x2a 0xffffffffffffff98 0x5 0x630004 0x0 0x193b4150 0x5 0x0 0x0 0x640007 0x0 0x50 0x5 0x6a0005 0x5 0x0 0x0 0x0 0x0 oops 2 23 java/util/LinkedHashMap 40 java/util/HashMap$TreeNode
+ciMethodData java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2 47308 orig 264 104 225 212 103 0 0 0 0 40 108 15 21 0 0 0 0 152 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 1 0 0 49 190 5 0 1 0 0 0 186 52 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 8 0x20002 0xb7c6 0x90005 0x316 0x2058a570 0x5e70 0x2255abe0 0x5641 oops 2 4 java/util/LinkedHashMap 6 java/util/HashMap
+ciMethodData java/util/HashMap$Node <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V 2 13529 orig 264 104 225 212 103 0 0 0 0 240 175 15 21 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19 1 0 0 49 158 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x33c6 oops 0
+ciMethod java/util/LinkedList <init> ()V 3105 1 20880 0 32
+ciMethod java/util/AbstractSequentialList <init> ()V 3105 1 20886 0 0
+ciMethodData java/util/HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node; 2 6433 orig 264 104 225 212 103 0 0 0 0 152 137 15 21 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 9 193 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 9 0 0 0 0 0 data 2 0x90002 0x1821 oops 0
+ciMethodData java/util/HashMap afterNodeInsertion (Z)V 2 1348 orig 264 104 225 212 103 0 0 0 0 96 141 15 21 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 33 34 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/AbstractList <init> ()V 2 214675 orig 264 104 225 212 103 0 0 0 0 80 76 13 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 129 44 26 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x34591 oops 0
+ciMethodData java/util/HashMap afterNodeAccess (Ljava/util/HashMap$Node;)V 2 1281 orig 264 104 225 212 103 0 0 0 0 208 140 15 21 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 32 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod org/gradle/model/internal/registry/RuleBindings$NodeAtStateIndex getByPath (Ljava/util/Map;Ljava/lang/String;)Ljava/util/List; 2057 1 6403 0 -1
+ciMethodData java/util/LinkedList <init> ()V 2 20886 orig 264 104 225 212 103 0 0 0 0 152 184 44 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 1 0 0 145 128 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x5012 oops 0
+ciMethodData java/util/AbstractSequentialList <init> ()V 2 20886 orig 264 104 225 212 103 0 0 0 0 104 229 44 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 1 0 0 145 128 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x5012 oops 0
+ciMethodData java/util/HashMap$TreeNode putTreeVal (Ljava/util/HashMap;[Ljava/util/HashMap$Node;ILjava/lang/Object;Ljava/lang/Object;)Ljava/util/HashMap$TreeNode; 1 7 orig 264 104 225 212 103 0 0 0 0 24 253 27 21 0 0 0 0 176 5 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 9 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 64 4 0 0 255 255 255 255 7 0 10 0 0 0 0 0 data 136 0xa0007 0x1 0x68 0x0 0xe0005 0x0 0x0 0x0 0x0 0x0 0x110003 0x0 0x18 0x240007 0x3 0x38 0x0 0x2a0003 0x0 0x270 0x300007 0x0 0x38 0x3 0x360003 0x3 0x238 0x430007 0x0 0x90 0x0 0x480007 0x0 0x70 0x0 0x4f0005 0x0 0x0 0x0 0x0 0x0 0x520007 0x0 0x20 0x0 0x5a0007 0x0 0x50 0x0 0x5f0002 0x0 0x650007 0x0 0x50 0x0 0x6e0002 0x0 0x740007 0x0 0x130 0x0 0x790007 0x0 0x100 0x0 0x870007 0x0 0x70 0x0 0x910005 0x0 0x0 0x0 0x0 0x0 0x970007 0x0 0x90 0x0 0xa20007 0x0 0x70 0x0 0xac0005 0x0 0x0 0x0 0x0 0x0 0xb20007 0x0 0x20 0x0 0xbc0002 0x0 0xc70007 0x3 0x38 0x0 0xcf0003 0x0 0x18 0xda0007 0x2 0xf8 0x1 0xec0005 0x0 0x2058a570 0x1 0x0 0x0 0xf30007 0x1 0x38 0x0 0xfd0003 0x0 0x18 0x11d0007 0x0 0x50 0x1 0x1220004 0x0 0x193b4150 0x1 0x0 0x0 0x12f0002 0x1 0x1320002 0x1 0x1370003 0x2 0xfffffffffffffc40 oops 2 108 java/util/LinkedHashMap 125 java/util/HashMap$TreeNode
+ciMethodData org/gradle/model/internal/registry/RuleBindings$NodeAtStateIndex getByPath (Ljava/util/Map;Ljava/lang/String;)Ljava/util/List; 2 6403 orig 264 104 225 212 103 0 0 0 0 112 61 88 33 0 0 0 0 24 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 17 192 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 192 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 24 0x20005 0x0 0x2255abe0 0x1802 0x0 0x0 0x70104 0x0 0x2255ac90 0x6e6 0x0 0x0 0xc0007 0x6e6 0x60 0x111c 0x130002 0x111c 0x1a0005 0x0 0x2255abe0 0x111c 0x0 0x0 oops 3 2 java/util/HashMap 8 java/util/LinkedList 20 java/util/HashMap
+instanceKlass org/gradle/execution/TaskNameResolver$FixedTaskSelectionResult
+instanceKlass org/gradle/execution/TaskNameResolver$MultiProjectTaskSelectionResult
+instanceKlass org/gradle/internal/serialize/Message$1
+instanceKlass org/gradle/internal/serialize/Message$CausePlaceholder
+instanceKlass org/gradle/internal/serialize/Message$ExceptionPlaceholder
+instanceKlass org/gradle/BuildExceptionReporter$2
+instanceKlass org/gradle/internal/logging/text/BufferingStyledTextOutput$ChangeStyleAction
+instanceKlass org/gradle/internal/logging/text/BufferingStyledTextOutput$1
+instanceKlass org/gradle/BuildExceptionReporter$FailureDetails
+instanceKlass org/codehaus/groovy/runtime/StackTraceUtils
+instanceKlass org/gradle/internal/exceptions/Contextual
+instanceKlass org/gradle/tooling/internal/provider/events/DefaultFailure
+instanceKlass org/gradle/tooling/internal/protocol/InternalFailure
+instanceKlass com/android/build/gradle/internal/ExtraModelInfo$1
+instanceKlass com/android/ide/common/blame/parser/util/OutputLineReader
+instanceKlass com/android/builder/core/AndroidBuilder$$Lambda$237
+instanceKlass com/google/common/base/Stopwatch$1
+instanceKlass com/android/build/gradle/internal/process/GradleJavaProcessExecutor$ExecAction
+instanceKlass com/android/ide/common/process/ProcessInfoBuilder$JavaProcessInfoImpl
+instanceKlass com/android/builder/core/DexProcessBuilder$2
+instanceKlass com/android/builder/core/DexProcessBuilder$1
+instanceKlass com/android/builder/core/DexByteCodeConverter$$Lambda$233
+instanceKlass com/android/builder/internal/compiler/PreProcessCache$Item
+instanceKlass com/google/common/collect/SortedIterables
+instanceKlass com/android/builder/internal/compiler/DxDexKey$$Lambda$229
+instanceKlass com/android/builder/internal/compiler/PreProcessCache$KeyFactory
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/build/gradle/internal/transforms/DexTransform$PreDexTask$$Lambda$225
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/builder/internal/utils/FileCache$Inputs
+instanceKlass com/android/builder/internal/utils/FileCache$Inputs$Builder
+instanceKlass com/android/build/gradle/internal/transforms/DexTransform$PreDexTask
+instanceKlass com/android/build/gradle/internal/transforms/DexTransform$1
+instanceKlass com/android/ide/common/blame/parser/DexParser
+instanceKlass com/google/common/base/Objects$ToStringHelper$ValueHolder
+instanceKlass com/google/common/base/Objects$ToStringHelper
+instanceKlass com/android/build/gradle/internal/transforms/InstantRunSlicer$Slice$SlicedElement
+instanceKlass com/android/build/gradle/internal/transforms/InstantRunSlicer$Slice
+instanceKlass com/android/build/gradle/internal/transforms/InstantRunSlicer$Slices
+instanceKlass com/android/build/gradle/tasks/PreColdSwapTask$1
+instanceKlass com/kikkos/sunshine/widget/DetailWidgetRemoteViewsService$1
+instanceKlass android/widget/RemoteViewsService$RemoteViewsFactory
+instanceKlass android/content/BroadcastReceiver
+instanceKlass org/json/JSONObject
+instanceKlass android/content/AbstractThreadedSyncAdapter
+instanceKlass android/accounts/AbstractAccountAuthenticator
+instanceKlass android/content/ContentProvider
+instanceKlass android/database/sqlite/SQLiteOpenHelper
+instanceKlass com/kikkos/sunshine/data/WeatherContract
+instanceKlass com/kikkos/sunshine/data/WeatherContract$WeatherEntry
+instanceKlass com/kikkos/sunshine/data/WeatherContract$LocationEntry
+instanceKlass android/provider/BaseColumns
+instanceKlass com/google/firebase/firebase_core/R
+instanceKlass com/google/android/gms/R
+instanceKlass com/google/android/gms/R$styleable
+instanceKlass com/google/android/gms/R$style
+instanceKlass com/google/android/gms/R$string
+instanceKlass com/google/android/gms/R$raw
+instanceKlass com/google/android/gms/R$layout
+instanceKlass com/google/android/gms/R$integer
+instanceKlass com/google/android/gms/R$id
+instanceKlass com/google/android/gms/R$drawable
+instanceKlass com/google/android/gms/R$dimen
+instanceKlass com/google/android/gms/R$color
+instanceKlass com/google/android/gms/R$attr
+instanceKlass com/google/android/gms/R$array
+instanceKlass android/support/v7/recyclerview/R
+instanceKlass android/support/v7/recyclerview/R$styleable
+instanceKlass android/support/v7/recyclerview/R$id
+instanceKlass android/support/v7/recyclerview/R$dimen
+instanceKlass android/support/v7/recyclerview/R$attr
+instanceKlass android/support/v7/cardview/R
+instanceKlass android/support/v7/cardview/R$styleable
+instanceKlass android/support/v7/cardview/R$style
+instanceKlass android/support/v7/cardview/R$dimen
+instanceKlass android/support/v7/cardview/R$color
+instanceKlass android/support/v7/cardview/R$attr
+instanceKlass android/support/v7/appcompat/R
+instanceKlass android/support/v7/appcompat/R$styleable
+instanceKlass android/support/v7/appcompat/R$style
+instanceKlass android/support/v7/appcompat/R$string
+instanceKlass android/support/v7/appcompat/R$layout
+instanceKlass android/support/v7/appcompat/R$integer
+instanceKlass android/support/v7/appcompat/R$id
+instanceKlass android/support/v7/appcompat/R$drawable
+instanceKlass android/support/v7/appcompat/R$dimen
+instanceKlass android/support/v7/appcompat/R$color
+instanceKlass android/support/v7/appcompat/R$bool
+instanceKlass android/support/v7/appcompat/R$attr
+instanceKlass android/support/v7/appcompat/R$anim
+instanceKlass com/kikkos/sunshine/Utility
+instanceKlass android/preference/PreferenceFragment$OnPreferenceStartFragmentCallback
+instanceKlass android/preference/Preference$OnPreferenceChangeListener
+instanceKlass com/kikkos/sunshine/R
+instanceKlass com/kikkos/sunshine/R$xml
+instanceKlass com/kikkos/sunshine/R$transition
+instanceKlass com/kikkos/sunshine/R$styleable
+instanceKlass com/kikkos/sunshine/R$style
+instanceKlass com/kikkos/sunshine/R$string
+instanceKlass com/kikkos/sunshine/R$mipmap
+instanceKlass com/kikkos/sunshine/R$menu
+instanceKlass com/kikkos/sunshine/R$layout
+instanceKlass com/kikkos/sunshine/R$integer
+instanceKlass com/kikkos/sunshine/R$id
+instanceKlass com/kikkos/sunshine/R$drawable
+instanceKlass com/kikkos/sunshine/R$dimen
+instanceKlass com/kikkos/sunshine/R$color
+instanceKlass com/kikkos/sunshine/R$bool
+instanceKlass com/kikkos/sunshine/R$attr
+instanceKlass com/kikkos/sunshine/R$array
+instanceKlass org/gradle/launcher/daemon/server/DaemonRegistryUnavailableExpirationStrategy$1
+instanceKlass com/kikkos/sunshine/R$anim
+instanceKlass org/gradle/cache/internal/SimpleStateCache$1
+instanceKlass org/gradle/launcher/daemon/server/DaemonExpirationResult
+instanceKlass android/view/View
+instanceKlass android/view/accessibility/AccessibilityEventSource
+instanceKlass android/graphics/drawable/Drawable$Callback
+instanceKlass com/kikkos/sunshine/Manifest
+instanceKlass com/kikkos/sunshine/Manifest$permission
+instanceKlass android/support/v4/app/ActivityOptionsCompat
+instanceKlass android/content/Intent
+instanceKlass android/os/BaseBundle
+instanceKlass android/os/Parcelable
+instanceKlass com/kikkos/sunshine/ForecastFragment$Callback
+instanceKlass android/preference/Preference
+instanceKlass android/preference/PreferenceManager$OnActivityDestroyListener
+instanceKlass android/content/DialogInterface$OnDismissListener
+instanceKlass android/content/DialogInterface$OnClickListener
+instanceKlass com/kikkos/sunshine/LocationEditTextPreference$2
+instanceKlass android/text/TextWatcher
+instanceKlass android/text/NoCopySpan
+instanceKlass org/objectweb/asm/Handler
+instanceKlass com/kikkos/sunshine/LocationEditTextPreference$1
+instanceKlass com/kikkos/sunshine/ItemChoiceManager
+instanceKlass android/support/v7/widget/RecyclerView$AdapterDataObserver
+instanceKlass android/content/SharedPreferences$OnSharedPreferenceChangeListener
+instanceKlass com/kikkos/sunshine/ForecastFragment$4
+instanceKlass android/view/ViewTreeObserver$OnPreDrawListener
+instanceKlass android/support/v7/widget/RecyclerView$OnScrollListener
+instanceKlass com/kikkos/sunshine/ForecastFragment$1
+instanceKlass com/kikkos/sunshine/ForecastAdapter$ForecastAdapterOnClickHandler
+instanceKlass android/support/v7/widget/RecyclerView$Adapter
+instanceKlass android/support/v7/widget/RecyclerView$ViewHolder
+instanceKlass android/view/View$OnClickListener
+instanceKlass android/support/v4/app/Fragment
+instanceKlass android/support/v4/app/LoaderManager$LoaderCallbacks
+instanceKlass android/content/Context
+instanceKlass android/content/ComponentCallbacks2
+instanceKlass android/content/ComponentCallbacks
+instanceKlass android/view/View$OnCreateContextMenuListener
+instanceKlass android/view/KeyEvent$Callback
+instanceKlass android/view/Window$Callback
+instanceKlass android/view/LayoutInflater$Factory2
+instanceKlass android/view/LayoutInflater$Factory
+instanceKlass android/support/v4/app/ActivityCompatApi23$RequestPermissionsRequestCodeValidator
+instanceKlass android/support/v4/app/ActivityCompat$OnRequestPermissionsResultCallback
+instanceKlass android/support/v7/app/ActionBarDrawerToggle$DelegateProvider
+instanceKlass android/support/v4/app/TaskStackBuilder$SupportParentable
+instanceKlass android/support/v7/app/AppCompatCallback
+instanceKlass org/objectweb/asm/tree/TryCatchBlockNode
+instanceKlass com/kikkos/sunshine/BuildConfig
+instanceKlass android/support/design/R
+instanceKlass android/support/design/R$styleable
+instanceKlass android/support/design/R$style
+instanceKlass android/support/design/R$string
+instanceKlass android/support/design/R$layout
+instanceKlass android/support/design/R$integer
+instanceKlass android/support/design/R$id
+instanceKlass android/support/design/R$drawable
+instanceKlass android/support/design/R$dimen
+instanceKlass android/support/design/R$color
+instanceKlass android/support/design/R$bool
+instanceKlass android/support/design/R$attr
+instanceKlass com/android/build/gradle/internal/incremental/StringSwitch$1
+instanceKlass com/google/common/collect/Multimaps
+instanceKlass com/android/build/gradle/internal/incremental/StringSwitch$$Lambda$224
+instanceKlass com/android/build/gradle/internal/incremental/StringSwitch
+instanceKlass com/android/build/gradle/internal/incremental/IncrementalSupportVisitor$MethodReference
+instanceKlass org/objectweb/asm/Edge
+instanceKlass com/android/build/gradle/internal/incremental/Constructor
+instanceKlass com/android/build/gradle/internal/incremental/LocalVariable
+instanceKlass org/objectweb/asm/util/Printer
+instanceKlass com/android/build/gradle/internal/incremental/ByteCodeUtils
+instanceKlass org/objectweb/asm/tree/analysis/Subroutine
+instanceKlass org/objectweb/asm/tree/analysis/Frame
+instanceKlass org/objectweb/asm/tree/analysis/Analyzer
+instanceKlass org/objectweb/asm/tree/analysis/BasicValue
+instanceKlass org/objectweb/asm/tree/analysis/Value
+instanceKlass org/objectweb/asm/Opcodes
+instanceKlass org/objectweb/asm/tree/analysis/Interpreter
+instanceKlass com/android/build/gradle/internal/incremental/ConstructorBuilder
+instanceKlass org/objectweb/asm/commons/Method
+instanceKlass com/android/build/gradle/internal/incremental/InstantRunMethodVerifier
+instanceKlass org/objectweb/asm/Frame
+instanceKlass android/support/design/R$anim
+instanceKlass org/objectweb/asm/tree/LocalVariableNode
+instanceKlass org/objectweb/asm/tree/InsnList
+instanceKlass org/objectweb/asm/tree/InnerClassNode
+instanceKlass org/objectweb/asm/Context
+instanceKlass org/objectweb/asm/Attribute
+instanceKlass org/objectweb/asm/ClassReader
+instanceKlass com/android/build/gradle/internal/incremental/IncrementalSupportVisitor$VisitorBuilder
+instanceKlass org/objectweb/asm/Type
+instanceKlass com/android/build/gradle/internal/incremental/Redirection
+instanceKlass org/objectweb/asm/tree/AbstractInsnNode
+instanceKlass com/android/build/gradle/internal/incremental/IncrementalVisitor$VisitorBuilder
+instanceKlass java/util/Collections$2
+instanceKlass com/android/build/gradle/internal/pipeline/TransformTask$$Lambda$223
+instanceKlass com/google/common/collect/Iterators$5
+instanceKlass com/android/build/gradle/internal/pipeline/TransformTask$$Lambda$222

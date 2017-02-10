@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "964627137148",
+    "firebase_url": "https://sunshine-12cad.firebaseio.com",
+    "project_id": "sunshine-12cad",
+    "storage_bucket": "sunshine-12cad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964627137148:android:90c0253b12ad5523",
+        "android_client_info": {
+          "package_name": "com.kikkos.sunshine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964627137148-r7pl631s0g4es3qqsj2sq29ca6pbrj5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCudoPhOzX8Zr5Nke25isb0f2QQBfxgHnw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,4 @@
+--- PLEASE READ BELLOW BEFORE PROCEEDING ---
+
+IN ORDER FOR THIS APP TO GET DATA FROM  OPENWEATHERMAP.ORG YOU NEED
+TO SPECIFY YOUR API KEY AT: <name="api_key_text"> string field in the strings.xml file.
