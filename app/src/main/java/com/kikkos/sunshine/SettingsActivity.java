@@ -173,7 +173,6 @@ public class SettingsActivity extends PreferenceActivity
                 Place place = PlacePicker.getPlace(data, this);
                 String address = place.getAddress().toString();
                 LatLng latLong = place.getLatLng();
-
                 // If the provided place doesn't have an address, we'll form a display-friendly
                 // string from the latlng values.
                 if (TextUtils.isEmpty(address)) {
