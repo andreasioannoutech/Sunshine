@@ -1,8 +1,7 @@
-# Udacity Android Developer Nanodegree course supporting exercise
+# Android Weather App
+Udacity Android Developer Nanodegree course supporting exercise
 
-## Android Weather App
-
-### Getting started
+## Getting started
 1. Download a copy of this repo
 1. Get free API key from OPENWEATHERMAP.ORG
 2. insert your API key at <name="api_key_text"> string field in the strings.xml file.
