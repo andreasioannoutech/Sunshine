@@ -8,4 +8,3 @@ Udacity Android Developer Nanodegree course supporting exercise
 3. Create a google messaging and google Place API key
 4. insert your API key at manifest declared meta-data "com.google.android.geo.API_KEY"
 5. compile and run the debug version of the app
-
