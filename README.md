@@ -1,5 +1,5 @@
-# Sunshine
-Sunshine is a Weather app for Udacity Android Developer Nanodegree course supporting exercise
+# Sunshine Android app
+Sunshine is a Weather app utilizing the openweather.org API for the Udacity Android Developer Nanodegree course supporting exercise
 
 ## Getting started
 1. Download a copy of this repo
